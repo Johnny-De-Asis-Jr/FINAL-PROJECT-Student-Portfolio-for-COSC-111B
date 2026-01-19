@@ -31,7 +31,7 @@ The system maintains the "Running Light" logic from Activity #1 but with upgrade
 4. **Timing:** A strict 1-second (1000ms) delay is maintained between each state change in the sequence.
 
 ## 📂 Repository Content
-* **Sketch File:** `activity_2.ino` containing the optimized array and while-loop logic.
+* **Sketch File:** `.ino` containing the optimized array and while-loop logic.
 * **Diagram:** A Breadboard diagram illustrating the connection of LEDs to the specific Arduino pins.
 
 ## 👥 Members
