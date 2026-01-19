@@ -32,7 +32,6 @@ The system follows a specific 12-to-8 sequence:
 ## 📂 Repository Content
 * **Sketch File:** `*.ino` file containing the source code.
 * **Diagram:** Breadboard layout (TinkerCad/Fritzing) showing the wiring of pins 8-12.
-* **Documentation:** Individual grades and contributions of the members.
 
 ## 👥 Members
 | De Asis, Johnny Jr. S.
