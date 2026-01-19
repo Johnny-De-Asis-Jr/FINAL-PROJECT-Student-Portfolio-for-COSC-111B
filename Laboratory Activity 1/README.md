@@ -35,8 +35,8 @@ The system follows a specific 12-to-8 sequence:
 * **Documentation:** Individual grades and contributions of the members.
 
 ## 👥 Members
-| De Asis, Johnny Jr. S. |
-| Osit, Eduardo V. |
+| De Asis, Johnny Jr. S.
+| Osit, Eduardo V.
 | Padilla, Allexzeus Marvel C. |
 
 ---
