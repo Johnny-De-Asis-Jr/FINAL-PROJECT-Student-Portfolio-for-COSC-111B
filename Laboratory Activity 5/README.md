@@ -49,4 +49,4 @@ The system acts as a remote LED controller with the following command logic:
 * **Diagram:** Breadboard diagram illustrating the RGB LED connections.
 
 ## 👥 Members
-| De Asis, Johnny Jr. S. | Osit, Eduardo V. | Padilla, Allexzeus Marvel C. |
+| Barrion, Merell Joy B. | De Asis, Johnny Jr. S. | Francisco, Gerard Obey S. | Osit, Eduardo V. | Padilla, Allexzeus Marvel C. | Roldan, Maureen T. |
