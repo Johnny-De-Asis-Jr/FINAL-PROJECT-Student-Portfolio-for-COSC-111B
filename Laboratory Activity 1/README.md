@@ -1,47 +1,44 @@
 # Laboratory Activity #1: Working with Digital Signals
 
-## 📌 Overview
-This repository contains the implementation of a **LED Running Light** circuit using an Arduino microcontroller. This activity demonstrates the control of digital signals and sequential logic in an embedded system.
+## 📝 Description
+This project demonstrates the implementation of a **LED Running Light** sequence using an Arduino microcontroller. The activity serves as a practical application of digital output control, requiring precise timing and sequential logic to manipulate hardware components.
 
 ## 🎯 Objectives
-* Review **Arduino** as a platform for IoT systems implementation.
-* Implement and manage **digital signals** within a physical circuit.
-* Master the use of `digitalWrite()` and timing functions for automated hardware control.
+* Review **Arduino** as a primary device for IoT systems implementation.
+* Discuss and implement **digital signals** within an Arduino circuit.
+* Develop a functional understanding of pin manipulation and timing delays.
 
----
-
-## 🛠️ Instructions & Requirements
-
-### 1. Circuit Logic
-The goal is to create a "Running Light" sequence using five LEDs connected to **Pins 8 through 12**.
-* **Direction:** The sequence flows from Pin 12 down to Pin 8.
-* **On Phase:** Turn all LEDs ON one by one (1-second delay between each).
-* **Off Phase:** Turn all LEDs OFF one by one (1-second delay between each).
-* **Command:** All pins must be controlled using the `digitalWrite()` function.
+## 🛠️ Components Used
+* **Microcontroller:** Arduino Uno (or compatible board)
+* **Output Devices:** 5x LEDs
+* **Current Limiting:** 5x 220Ω - 330Ω Resistors
+* **Prototyping:** Breadboard and Jumper Wires
 
 
 
-### 2. Submission Requirements
-The final GitHub repository must contain:
-* The Arduino Sketch file (`.ino`).
-* A professional Breadboard Diagram (TinkerCad or Fritzing).
-* A document listing the individual grades/contributions of the members.
+## 💡 Concepts Applied
+* **Digital Output:** Utilizing `digitalWrite()` to send `HIGH` (5V) and `LOW` (0V) signals.
+* **Pin Initialization:** Configuring GPIO pins using `pinMode()`.
+* **Timing Logic:** Implementing synchronous delays using the `delay()` function.
+* **Sequential Control:** Using loops or ordered statements to create a "running" visual effect.
 
----
+## ⚙️ System Behavior
+The system follows a specific 12-to-8 sequence:
+1. **Power On:** All LEDs start in the `LOW` state.
+2. **Phase 1 (Loading):** Starting from Pin 12, LEDs turn **ON** one by one with a 1-second interval until all 5 are lit.
+3. **Phase 2 (Clearing):** Starting from Pin 12, LEDs turn **OFF** one by one with a 1-second interval until all are dark.
+4. **Loop:** The sequence repeats indefinitely.
 
-## 📊 Grading Rubric
-| Criteria | Weight | Description |
-| :--- | :--- | :--- |
-| **Algorithm** | 30% | Correctness and efficiency of the code logic. |
-| **Speed** | 30% | Timeliness of the activity completion. |
-| **Output** | 40% | Final functionality and stability of the hardware. |
+## 📂 Repository Content
+* **Sketch File:** `*.ino` file containing the source code.
+* **Diagram:** Breadboard layout (TinkerCad/Fritzing) showing the wiring of pins 8-12.
+* **Documentation:** Individual grades and contributions of the members.
 
----
-
-## 👥 Group Members & Grades
-De Asis, Johnny Jr. S.
-Osit, Eduardo V.
-Padilla, Allexzeus Marvel C.
+## 👥 Members
+| Name |
+| De Asis, Johnny Jr. S. |
+| Osit, Eduardo V. |
+| Padilla, Allexzeus Marvel C. |
 
 ---
 *Created for Laboratory Activity #1 - Digital Signals Review.*
