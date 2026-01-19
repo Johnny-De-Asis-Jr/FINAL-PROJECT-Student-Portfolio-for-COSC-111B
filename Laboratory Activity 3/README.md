@@ -35,7 +35,7 @@ The system acts as a safety monitor with the following logic:
 4. **Alert Execution:** A fast-blinking Red LED and a Buzzer (on Pin 12) activate to notify the user of a fire.
 
 ## 📂 Repository Content
-* **Sketch File:** `fire_sensor_simulation.ino` (Includes modular functions for temperature and light readings).
+* **Sketch File:** `.ino` (Includes modular functions for temperature and light readings).
 * **Diagram:** A detailed Breadboard diagram showing the wiring of the thermistor, photoresistor, and the shared LED/Buzzer pin.
 
 ## 👥 Members
