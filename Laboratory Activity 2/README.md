@@ -35,6 +35,4 @@ The system maintains the "Running Light" logic from Activity #1 but with upgrade
 * **Diagram:** A Breadboard diagram illustrating the connection of LEDs to the specific Arduino pins.
 
 ## 👥 Members
-| [Name 1] 
-| [Name 2] 
-| [Name 3] | | |
+| De Asis, Johnny Jr. S. | Osit, Eduardo V. | Padilla, Allexzeus Marvel C. |
