@@ -34,7 +34,7 @@ This repository serves as a comprehensive compilation of all laboratory activiti
 * **Goal:** Control an Arduino circuit (RGB LEDs) using a Python-based interface.
 * **Logic:** Python script sends toggling commands ('R', 'G', 'B', 'A', 'O') via `pyserial` to control pins 8, 9, and 10.
 
-### 📍 [Laboratory Activity 6: Bidirectional Control](./Laboratory Activity 6)
+### 📍 [Laboratory Activity 6: Bidirectional Control](./Laboratory_Activity_6)
 * **Goal:** Implement a loopback system between Arduino and Python.
 * **Logic:** Buttons send 'R/G/B' to Python, which writes back '1/2/3' to Arduino to toggle the corresponding LEDs.
 
