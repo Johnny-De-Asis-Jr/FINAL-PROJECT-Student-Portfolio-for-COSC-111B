@@ -37,6 +37,3 @@ The system follows a specific 12-to-8 sequence:
 | De Asis, Johnny Jr. S.
 | Osit, Eduardo V.
 | Padilla, Allexzeus Marvel C. |
-
----
-*Created for Laboratory Activity #1 - Digital Signals Review.*
