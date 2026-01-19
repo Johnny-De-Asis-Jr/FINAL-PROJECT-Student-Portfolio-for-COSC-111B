@@ -1,4 +1,4 @@
-# Final Project: Smart Outdoor Lighting System
+# Midterms Laboratory Exam: Smart Outdoor Lighting System
 
 ## 📝 Description
 This project involves designing and programming an intelligent lighting system for outdoor environments using an Arduino. The system monitors ambient light conditions through a photoresistor and adjusts LED indicators accordingly. It features two distinct operational states: a **Manual Mode** for user-defined sensitivity and an **Automatic Mode** that simulates responses to environmental changes like cloudy weather or bright sunlight.
